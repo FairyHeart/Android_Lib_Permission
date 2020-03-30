@@ -14,5 +14,4 @@ import kotlinx.android.parcel.Parcelize
 internal class Param(
     var permissions: MutableList<PermissionVo>,
     var showCustomDialog: Boolean = false
-) :
-    Parcelable
+) : Parcelable
