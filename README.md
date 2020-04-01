@@ -110,29 +110,13 @@ OnPermissionListener授权回调<br />onDenied(permission) : _被拒绝_<br />o
 </resources>
 ```
 
-<br />四种默认样式：
+<br />四种默认样式：<br />
+| |<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_11_44_49.png" width = "320" height = "560" alt="demo picture" align=center>
+|<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_47_26.png" width = "320" height = "560" alt="demo picture" align=center>
+|<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_46_05.png" width = "320" height = "560" alt="demo picture" align=center>
+|<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_46_14.png" width = "320" height = "560" alt="demo picture" align=center>
+|
+|styleId|R.style.PermissionDefaultStyle|R.style.PermissionBlueStyle|R.style.PermissionGreenLightStyle||R.style.PermissionGreenStyle|
 
-- R.style.PermissionDefaultStyle
-<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_11_44_49.png" width = "320" height = "560" alt="demo picture" 
-align=center>
-<br />
-
-- R.style.PermissionBlueStyle
-<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_47_26.png" width = "320" height = "560" alt="demo picture" 
-align=center>
-<br />
-
-- R.style.PermissionGreenLightStyle
-<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_46_05.png" width = "320" height = "560" alt="demo picture" 
-align=center>
-<br />
-
-- R.style.PermissionGreenStyle
-<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_46_14.png" width = "320" height = "560" alt="demo picture" 
-align=center>
-
-- 自定义效果
-<img src="https://github.com/FairyHeart/LibPermission/blob/master/image/2020_04_01_07_46_27.png" width = "320" height = "560" alt="demo picture" 
-align=center>
 
 4. <br />
