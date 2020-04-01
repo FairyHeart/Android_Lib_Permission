@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="permission_name_calendar">日历</string>
+    <string name="permission_name_camera">相机</string>
+    <string name="permission_name_contacts">手机账号/通讯录</string>
+    <string name="permission_name_location">位置信息</string>
+    <string name="permission_name_microphone">麦克风</string>
+    <string name="permission_name_phone">电话</string>
+    <string name="permission_name_call_log">通话记录</string>
+    <string name="permission_name_sensors">身体传感器</string>
+    <string name="permission_name_activity_recognition">健身运动</string>
+    <string name="permission_name_sms">短信</string>
+    <string name="permission_name_storage">存储空间</string>
+
+    <string name="permission_btn_next">下一步</string>
+    <string name="permission_btn_cancel">取消</string>
+    <string name="permission_btn_confirm">确定</string>
+    <string name="permission_dialog_title">开启 %1$s</string>
+    <string name="permission_dialog_msg">为了您能正常使用,需要开启以下权限:</string>
+    <string name="permission_title_tip">请允许获取%1$s权限</string>
+    <string name="permission_denied_tip">应用需要获取%1$s权限,否则可能导致运行异常</string>
+    <string name="permission_refund_tip">"由于%1$s无法获取%2$s权限, 可能导致运行异常, 请开启权限后再使用。\n\n设置路径: 应用管理->%3$s->权限"</string>
+    <string name="permission_go_to_setting">去设置</string>
+</resources>

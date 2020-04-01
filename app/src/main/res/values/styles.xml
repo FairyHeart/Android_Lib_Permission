@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Permis">
+        <item name="permissionTitleColor">@color/colorPrimary</item>
+        <item name="permissionDescColor">@color/colorPrimary</item>
+        <item name="permissionButtonTextColor">@android:color/white</item>
+        <item name="permissionItemTextColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PermissionCustomerStyle" parent="Permis">
+        <item name="permissionButtonBackground">@color/colorPrimary</item>
+        <item name="permissionIconFilterColor">@color/colorPrimary</item>
+    </style>
+
 </resources>

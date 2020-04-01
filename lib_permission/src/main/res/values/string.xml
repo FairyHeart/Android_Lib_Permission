@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="permission_name_calendar">Calendar</string>
+    <string name="permission_name_camera">Camera</string>
+    <string name="permission_name_contacts">Accounts/Contacts</string>
+    <string name="permission_name_location">Location</string>
+    <string name="permission_name_microphone">Microphone</string>
+    <string name="permission_name_phone">Phone</string>
+    <string name="permission_name_call_log">Call Log</string>
+    <string name="permission_name_sensors">Body Sensors</string>
+    <string name="permission_name_activity_recognition">Activity Recognition</string>
+    <string name="permission_name_sms">SMS</string>
+    <string name="permission_name_storage">Storage</string>
+
+    <string name="permission_btn_next">Next</string>
+    <string name="permission_btn_cancel">Cancel</string>
+    <string name="permission_btn_confirm">OK</string>
+    <string name="permission_dialog_title">Turn on %1$s</string>
+    <string name="permission_dialog_msg">For your normal use, you need to enable the following permissions:</string>
+    <string name="permission_title_tip">Please allow permission for</string>
+    <string name="permission_denied_tip">The application needs to obtain permission of %1$s, otherwise it may cause abnormal operation</string>
+    <string name="permission_refund_tip">"Unable to obtain %2$s permission for %1$s, it may cause abnormal operation. Please enable permission before using. \n\n Setting path: Application Management->%3$s->Permissions"</string>
+    <string name="permission_go_to_setting">Go to settings</string>
+
+</resources>

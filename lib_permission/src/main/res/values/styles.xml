@@ -28,4 +28,41 @@
         <item name="android:windowAnimationStyle">@style/notAnimation</item>
     </style>
 
+    <!--AlertDialog-->
+    <style name="BaseDialogFragment" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="PermissionBaseStyle">
+        <item name="permissionBackground">@drawable/bg_white</item>
+        <item name="permissionTitleColor">#737373</item>
+        <item name="permissionDescColor">#737373</item>
+        <item name="permissionButtonTextColor">@android:color/white</item>
+        <item name="permissionItemTextColor">#737373</item>
+    </style>
+
+    <style name="PermissionDefaultStyle" parent="PermissionBaseStyle">
+        <item name="permissionButtonBackground">@drawable/selector_btn_next_default</item>
+        <item name="permissionIconFilterColor">@color/permissionColorDefault</item>
+    </style>
+
+    <style name="PermissionBlueStyle" parent="PermissionBaseStyle">
+        <item name="permissionButtonBackground">@drawable/selector_btn_next_blue</item>
+        <item name="permissionIconFilterColor">@color/permissionColorBlue</item>
+    </style>
+
+    <style name="PermissionGreenLightStyle" parent="PermissionBaseStyle">
+        <item name="permissionButtonBackground">@drawable/selector_btn_next_green_lightn</item>
+        <item name="permissionIconFilterColor">@color/permissionColorGreenLight</item>
+    </style>
+
+    <style name="PermissionGreenStyle" parent="PermissionBaseStyle">
+        <item name="permissionButtonBackground">@drawable/selector_btn_next_green</item>
+        <item name="permissionIconFilterColor">@color/permissionColorGreen</item>
+    </style>
 </resources>

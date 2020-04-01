@@ -1,6 +1,7 @@
 package com.lib.permission.bean
 
 import android.os.Parcelable
+import com.lib.permission.Permission
 import kotlinx.android.parcel.Parcelize
 
 /**
@@ -15,7 +16,7 @@ import kotlinx.android.parcel.Parcelize
  */
 @Parcelize
 data class PermissionVo(
-    val permission: String,
+    val permission: Permission,
     val permissionName: String = "",
     val permissionIcon: Int = 0
 ) : Parcelable

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="permissionColorDefault">#6200EE</color>
+    <color name="permissionColorDefault_press">#6600CC</color>
+    <color name="permissionColorGreen">#41c236</color>
+    <color name="permissionColorGreen_press">#009900</color>
+    <color name="permissionColorWhite">#ffffff</color>
+    <color name="permissionColorGreenLight">#44A49C</color>
+    <color name="permissionColorGreenLight_press">#006666</color>
+    <color name="permissionColorBlue">#447AA4</color>
+    <color name="permissionColorBlue_press">#336699</color>
+
+</resources>

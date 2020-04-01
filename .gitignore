@@ -15,4 +15,4 @@
 application/cache/*
 application/logs/*
 *.name
-*.xml
+.idea

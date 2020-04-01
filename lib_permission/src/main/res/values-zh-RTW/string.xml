@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="permission_name_calendar">日曆</string>
+    <string name="permission_name_camera">相機</string>
+    <string name="permission_name_contacts">手機賬號/通訊錄</string>
+    <string name="permission_name_location">位置信息</string>
+    <string name="permission_name_microphone">麥克風</string>
+    <string name="permission_name_phone">電話</string>
+    <string name="permission_name_call_log">通話記錄</string>
+    <string name="permission_name_sensors">身體感測器</string>
+    <string name="permission_name_activity_recognition">健身運動</string>
+    <string name="permission_name_sms">簡訊</string>
+    <string name="permission_name_storage">存儲空間</string>
+
+    <string name="permission_btn_next">下一步</string>
+    <string name="permission_btn_cancel">取消</string>
+    <string name="permission_btn_confirm">確定</string>
+    <string name="permission_dialog_title">開啟 %1$s</string>
+    <string name="permission_dialog_msg">為了您能正常使用,需要開啟以下許可權:</string>
+    <string name="permission_title_tip">請允許獲取%1$s許可權</string>
+    <string name="permission_denied_tip">應用需要獲取%1$s許可權,否則可能導致運行異常</string>
+    <string name="permission_refund_tip">"由於%1$s無法獲取%2$s許可權, 可能導致運行異常, 請開啟許可權後再使用。\n\n設置路徑: 應用管理->%3$s->許可權"</string>
+    <string name="permission_go_to_setting">去設置</string>
+</resources>
