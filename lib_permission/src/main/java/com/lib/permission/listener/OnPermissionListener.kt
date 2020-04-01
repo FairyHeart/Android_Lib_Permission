@@ -11,16 +11,14 @@ interface OnPermissionListener {
     /**
      * 被拒绝
      * @param permission 权限
-     * @param position 权限角标
      */
-    fun onDenied(permission: String, position: Int)
+    fun onDenied(permission: String)
 
     /**
      * 被授予
      * @param permission 权限
-     * @param position 权限角标
      */
-    fun onGranted(permission: String, position: Int)
+    fun onGranted(permission: String)
 
     /**
      * 全部授权完成

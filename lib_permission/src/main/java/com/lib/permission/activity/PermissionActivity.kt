@@ -95,7 +95,7 @@ internal class PermissionActivity : AppCompatActivity() {
                     permissionMap.remove(permissions[0])
                     onFinish()
                 } else {
-                    listener?.onDenied(permissions[0], 0)
+                    listener?.onDenied(permissions[0])
                 }
                 //用户拒绝了某个或多个权限，重新申请
                 if (permissionMap.isNotEmpty()) {
@@ -106,10 +106,10 @@ internal class PermissionActivity : AppCompatActivity() {
                 grantResults.indices.forEach {
                     //权限允许
                     if (grantResults[it] == PackageManager.PERMISSION_GRANTED) {
-                        listener?.onGranted(permissions[it], it)
+                        listener?.onGranted(permissions[it])
                         permissionMap.remove(permissions[it])
                     } else {
-                        listener?.onDenied(permissions[it], it)
+                        listener?.onDenied(permissions[it])
                     }
                 }
 
@@ -125,10 +125,10 @@ internal class PermissionActivity : AppCompatActivity() {
                 grantResults.indices.forEach {
                     //权限允许
                     if (grantResults[it] == PackageManager.PERMISSION_GRANTED) {
-                        listener?.onGranted(permissions[it], it)
+                        listener?.onGranted(permissions[it])
                         permissionMap.remove(permissions[it])
                     } else {
-                        listener?.onDenied(permissions[it], it)
+                        listener?.onDenied(permissions[it])
                     }
                 }
                 //重新申请后再次拒绝

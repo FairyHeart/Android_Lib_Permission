@@ -23,12 +23,11 @@ class MainActivity : AppCompatActivity() {
                         /**
                          * 被拒绝
                          * @param permission 权限
-                         * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -36,12 +35,11 @@ class MainActivity : AppCompatActivity() {
                         /**
                          * 被授予
                          * @param permission 权限
-                         * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -75,10 +73,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -88,10 +86,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -128,10 +126,10 @@ class MainActivity : AppCompatActivity() {
                      * @param permission 权限
                      * @param position 权限角标
                      */
-                    override fun onDenied(permission: String, position: Int) {
+                    override fun onDenied(permission: String) {
                         Toast.makeText(
                             this@MainActivity,
-                            "onDenied $permission $position",
+                            "onDenied $permission ",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -141,10 +139,10 @@ class MainActivity : AppCompatActivity() {
                      * @param permission 权限
                      * @param position 权限角标
                      */
-                    override fun onGranted(permission: String, position: Int) {
+                    override fun onGranted(permission: String) {
                         Toast.makeText(
                             this@MainActivity,
-                            "onGranted $permission $position",
+                            "onGranted $permission ",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -178,10 +176,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -191,10 +189,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -228,10 +226,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -241,10 +239,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -278,10 +276,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -291,10 +289,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -345,10 +343,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -358,10 +356,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -396,10 +394,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onDenied(permission: String, position: Int) {
+                        override fun onDenied(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onDenied $permission $position",
+                                "onDenied $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
@@ -409,10 +407,10 @@ class MainActivity : AppCompatActivity() {
                          * @param permission 权限
                          * @param position 权限角标
                          */
-                        override fun onGranted(permission: String, position: Int) {
+                        override fun onGranted(permission: String) {
                             Toast.makeText(
                                 this@MainActivity,
-                                "onGranted $permission $position",
+                                "onGranted $permission ",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }
