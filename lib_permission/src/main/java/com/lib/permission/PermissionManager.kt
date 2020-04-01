@@ -79,7 +79,7 @@ class PermissionManager {
     }
 
     /**
-     * 单个权限授权，默认使用自带的图片和文案
+     * 单个权限授权
      */
     fun checkPermission(permission: PermissionVo, listener: OnPermissionListener) {
         if (!checkVersion()) {
@@ -102,7 +102,7 @@ class PermissionManager {
     /**
      * 多个权限一起授权
      */
-    fun checkPermission(permissions: MutableList<PermissionVo>, listener: OnPermissionListener) {
+    fun checkPermissions(permissions: MutableList<PermissionVo>, listener: OnPermissionListener) {
         if (!checkVersion()) {
             listener.onFinish()
             return

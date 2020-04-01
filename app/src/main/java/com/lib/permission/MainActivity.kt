@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         btn_single.setOnClickListener {
             PermissionManager.builder()
+                .showCustomDialog(true)
+                .reminder(false)
+                .title(getString(R.string.permission_dialog_title,applicationInfo.loadLabel(packageManager)))
+                .desc(getString(R.string.permission_dialog_msg))
+                .nextBtnText(getString(R.string.permission_btn_next))
+                .style(R.style.PermissionDefaultStyle)
                 .build(this)
                 .checkSinglePermission(
                     Permission.WRITE_EXTERNAL_STORAGE,
@@ -336,7 +342,7 @@ class MainActivity : AppCompatActivity() {
                 .desc("自定义描述")
                 .nextBtnText("自定义文案")
                 .build(this)
-                .checkPermission(permissions,
+                .checkPermissions(permissions,
                     object : OnPermissionListener {
                         /**
                          * 被拒绝
